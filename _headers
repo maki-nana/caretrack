@@ -1,0 +1,9 @@
+# Netlify headers - prevent caching of critical files
+/sw.js
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/index.html
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/*
+  Cache-Control: public, max-age=0, must-revalidate
